@@ -1,1 +1,1 @@
-PRODUCT_DEFAULT_DEV_CERTIFICATE := /home/dest/.android-certs/releasekey
+PRODUCT_DEFAULT_DEV_CERTIFICATE := /home/bass/.android-certs/releasekey
