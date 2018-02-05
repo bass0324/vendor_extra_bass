@@ -11,8 +11,6 @@ PRODUCT_COPY_FILES += \
   vendor/opengapps/sources/arm/lib/23/libjni_latinimegoogle.so:system/lib64/libjni_latinimegoogle.so
 endif
 
-TARGET_EXTRA_KERNEL_MODULES := wireguard
-
 PRODUCT_COPY_FILES += \
     vendor/extra/rootdir/etc/init/ttl.rc:system/etc/init/ttl.rc
 
