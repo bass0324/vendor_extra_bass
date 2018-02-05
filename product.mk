@@ -3,7 +3,7 @@ PRODUCT_PACKAGES += auditd
 
 $(call prepend-product-if-exists, vendor/bass0324/product.mk)
 
-ifneq ($(filter lineage_marlin lineage_mata lineage_nash lineage_sailfish,$(TARGET_PRODUCT)),)
+ifneq ($(filter lineage_flo lineage_mata lineage_shamu lineage_grouper,$(TARGET_PRODUCT)),)
 GAPPS_VARIANT := nano
 $(call inherit-product-if-exists, vendor/opengapps/build/opengapps-packages.mk)
 
