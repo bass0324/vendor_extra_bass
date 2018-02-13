@@ -1,2 +1,6 @@
 on property:persist.sys.net.ipv4.ip_default_ttl=*
     write /proc/sys/net/ipv4/ip_default_ttl ${persist.sys.net.ipv4.ip_default_ttl}
+
+on property:persist.sys.net.ipv6.ip_default_ttl=*
+    write /proc/sys/net/ipv6/conf/all/hop_limit ${persist.sys.net.ipv6.ip_default_ttl}
+    write /proc/sys/net/ipv6/conf/default/hop_limit ${persist.sys.net.ipv6.ip_default_ttl}
