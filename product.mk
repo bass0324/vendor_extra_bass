@@ -9,8 +9,6 @@ $(call inherit-product-if-exists, vendor/opengapps/build/opengapps-packages.mk)
 
 PRODUCT_COPY_FILES += \
   vendor/opengapps/sources/arm/lib/23/libjni_latinimegoogle.so:system/lib64/libjni_latinimegoogle.so
-
-PRODUCT_PACKAGES += GoogleCam
 endif
 
 PRODUCT_COPY_FILES += \
